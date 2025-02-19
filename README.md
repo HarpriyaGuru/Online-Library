@@ -20,7 +20,7 @@ An online library system built with React, allowing users to browse books by cat
    git clone https://github.com/HarpriyaGuru/Online-Library.git 
 
 2. Navigate to the project folder:
-  cd Online Library
+  cd Online-Library
 
 3. Install dependencies:
      npm install
