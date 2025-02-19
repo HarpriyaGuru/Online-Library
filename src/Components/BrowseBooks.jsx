@@ -55,7 +55,7 @@ const BrowseBooks = () => {
                   <p className="text-sm text-gray-600 mt-2">{book.description}</p>
                   {/* Use Link instead of <a> for internal navigation */}
                   <Link
-                    to={`/book/${book.category}`}
+                    to={`/book/${book.id}`}
                     className="mt-4 block w-full py-2 text-center bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50"
                   >
                     View More Details
