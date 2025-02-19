@@ -22,13 +22,13 @@ const BookCategories = () => {
 
           {/* Non-Fiction Category */}
           <li className="bg-indigo-100 hover:bg-indigo-200 p-6 rounded-lg text-center shadow-md transform hover:scale-105 transition-all duration-200">
-            <Link to="/books/non-fiction" className="text-xl font-semibold text-indigo-600 hover:text-indigo-800">
+            <Link to="/books/" className="text-xl font-semibold text-indigo-600 hover:text-indigo-800">
               <img
-                src="https://img.freepik.com/premium-photo/close-up-old-books-feather-inkwell-wooden-table_146936-1395.jpg?semt=ais_hybrid"
-                alt="Non-Fiction"
+                src="https://img.freepik.com/premium-photo/close-up-old-books-feather-inkwell-wooden-table_146936-1395.jpg?semt=a"
+                alt="Adventure"
                 className="mb-4"
               />
-              Non-Fiction
+              Adventure
             </Link>
           </li>
 
@@ -82,6 +82,10 @@ const BookCategories = () => {
 
         </ul>
       </div>
+
+      {/*  */}
+      
+      {/*  */}
     </>
   );
 }

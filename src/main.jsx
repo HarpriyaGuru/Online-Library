@@ -3,7 +3,7 @@ import './index.css';
 import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Provider } from 'react-redux'; 
-import store from './utils/store/store.js';
+import store from './utils/Store/store.js';
 import BrowseBooks from './Components/BrowseBooks.jsx';
 import AddBook from './Components/AddBook.jsx';
 import BookDetails from './Components/BookDetails.jsx';
@@ -43,7 +43,6 @@ const appRouter = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}> 
-    <RouterProvider router={appRouter} />
-    
+    <RouterProvider router={appRouter} />    
   </Provider>
 );
