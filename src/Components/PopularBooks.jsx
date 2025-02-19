@@ -18,7 +18,7 @@ const PopularBooks = () => {
                   <div className="block text-xl font-semibold text-indigo-700 hover:text-indigo-600">
                     <img 
                       src={data.coverImage} 
-                      alt={data.title} t
+                      alt={data.title} 
                       className="rounded-t-lg w-full h-60 object-cover" 
                     />
                     <div className="mt-4">
@@ -26,7 +26,9 @@ const PopularBooks = () => {
                       <p className="text-sm text-gray-600">{data.description}</p> 
                     </div>
                   </div>
-                  <Link to={data.link || "#"} className="block text-xl font-semibold text-indigo-700 hover:text-indigo-600">
+
+                  {/* Link to BookDetails with book id */}
+                  <Link to={`/book/${data.id}`} className="block text-xl font-semibold text-indigo-700 hover:text-indigo-600">
                     <button className="mt-4 w-full py-2 bg-indigo-600 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50">
                       View More Details
                     </button>

@@ -2,6 +2,7 @@ import { BooksCatagories } from '../utils/BooksCatagories';
 import { Link, useParams } from 'react-router-dom';  // Import Link and useParams for navigation
 import Navbar from './Navbar';
 
+
 function BookDetails() {
   // Get the 'id' parameter from the URL
   const { id } = useParams();
